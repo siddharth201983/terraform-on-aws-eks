@@ -18,6 +18,7 @@ provider "aws" {
 resource "aws_instance" "ec2demo" {
   ami           = "ami-07860a2d7eb515d9a" # Amazon Linux in us-east-1, update as per your region
   instance_type = "t3.micro"
+  key_name      = "default-aws-kp"
 
   tags = {
     Name = "Terraform-EC2-Demo"
