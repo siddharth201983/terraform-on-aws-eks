@@ -11,13 +11,13 @@ terraform {
       source = "hashicorp/helm"
       #version = "2.4.1"
       #version = "~> 2.4"
-      version = "~> 2.9"
+      version = "~> 3.0"
     }
     http = {
       source = "hashicorp/http"
-      #version = "2.1.0"
-      #version = "~> 2.1"
-      version = "~> 3.3"
+      
+      
+      version = "~> 3.5"
     }
   }
   # Adding Backend as S3 for Remote State Storage

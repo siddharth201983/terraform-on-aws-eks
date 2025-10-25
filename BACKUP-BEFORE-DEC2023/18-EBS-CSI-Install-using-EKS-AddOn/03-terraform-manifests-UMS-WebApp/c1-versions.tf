@@ -8,7 +8,7 @@ terraform {
      }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = ">= 2.20"
+      version = ">= 2.38"
     }     
   }
   # Adding Backend as S3 for Remote State Storage

@@ -259,12 +259,12 @@ terraform {
      }
     helm = {
       source = "hashicorp/helm"
-      #version = "2.5.1"
+      
       version = "~> 2.5"
     }
     http = {
       source = "hashicorp/http"
-      #version = "2.1.0"
+      
       version = "~> 2.1"
     }
     kubernetes = {
