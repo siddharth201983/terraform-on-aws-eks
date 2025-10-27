@@ -1,6 +1,6 @@
 # Terraform Settings Block
 terraform {
-  required_version = ">= 1.13.0"
+  required_version = "~> 1.13"
   required_providers {
     null = {
       source = "hashicorp/null"

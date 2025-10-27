@@ -1,10 +1,10 @@
 # Terraform Settings Block
 terraform {
-  required_version = ">= 1.13.0"
+  required_version = "~> 1.13"
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = ">= 6.18"
+      version = "~> 6.18"
      }
     helm = {
       source = "hashicorp/helm"
